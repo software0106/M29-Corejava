@@ -7,9 +7,9 @@ public class StudentDao {
 	 * SQL statements are executed and results are returnedwithin the context of a connection. */
 	public Connection createConnection()
 	{
-		String url="jdbc:mysql://localhost";
+		String url="jdbc:mysql://127.0.0.1:3306";
 		String username="root";
-		String password="300100";
+		String password="C@rs8881";
 		
 		try {
 			/*if driver class name is an incorrect then it will
